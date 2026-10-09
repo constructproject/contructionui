@@ -10,22 +10,22 @@ export default function AboutSection() {
         <div className="grid grid-cols-1 items-stretch gap-0 sm:gap-5 md:grid-cols-[1fr_2fr_1fr] md:gap-6 lg:gap-7">
 
           {/* ── Founder image ── */}
-          <div className="relative h-[280px] overflow-hidden bg-slate-100 sm:h-[380px] sm:rounded-3xl md:h-auto md:rounded-l-[2.5rem] md:rounded-r-none">
+          <div className="relative h-[280px] overflow-hidden bg-white sm:h-[380px] sm:rounded-3xl md:h-auto md:rounded-l-[2.5rem] md:rounded-r-none">
             <img
               src={founderImage}
               alt="Mr. Mukesh Kumar, Founder"
               className="h-full w-full object-cover object-top md:absolute md:inset-0"
             />
 
-            {/* Name badge with gold cap */}
-            <div className="absolute bottom-4 right-4 md:bottom-5 md:right-0 lg:bottom-6">
-              <div className="h-4 rounded-t-2xl bg-[#b8924d]" />
-              <div className="rounded-2xl rounded-t-none bg-[#786B61] px-5 py-3 text-left">
-                <p className="text-lg font-semibold leading-tight text-white md:text-xl">
-                  Mr. Mukesh Kumar
-                </p>
-                <p className="text-sm text-white/80">Founder</p>
-              </div>
+            {/* Name — plain, no background card */}
+            <div className="absolute bottom-4 left-0 right-0 text-center">
+              <p
+                className="text-base font-semibold text-white drop-shadow-sm md:text-lg"
+                style={{ fontFamily: 'var(--font-serif)' }}
+              >
+                Mr. Mukesh Kumar
+              </p>
+              <p className="text-xs text-white/80">Founder</p>
             </div>
           </div>
 
