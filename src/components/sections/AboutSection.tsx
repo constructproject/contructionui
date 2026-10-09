@@ -1,6 +1,6 @@
 import { Camera } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import founderImage from '@/assets/img1.jpeg';
+import founderImage from '@/assets/projects/founder.jpeg';
 import projectImage from '@/assets/img2.jpeg';
 
 export default function AboutSection() {
@@ -13,16 +13,16 @@ export default function AboutSection() {
           <div className="relative h-[280px] overflow-hidden bg-slate-100 sm:h-[380px] sm:rounded-3xl md:h-auto md:rounded-l-[2.5rem] md:rounded-r-none">
             <img
               src={founderImage}
-              alt="Mr. Pradip, Founder"
+              alt="Mr. Mukesh Kumar, Founder"
               className="h-full w-full object-cover object-top md:absolute md:inset-0"
             />
 
             {/* Name badge with gold cap */}
             <div className="absolute bottom-4 right-4 md:bottom-5 md:right-0 lg:bottom-6">
               <div className="h-4 rounded-t-2xl bg-[#b8924d]" />
-              <div className="rounded-2xl rounded-t-none bg-[#985F42] px-5 py-3 text-left">
+              <div className="rounded-2xl rounded-t-none bg-[#786B61] px-5 py-3 text-left">
                 <p className="text-lg font-semibold leading-tight text-white md:text-xl">
-                  Mr. Pradip
+                  Mr. Mukesh Kumar
                 </p>
                 <p className="text-sm text-white/80">Founder</p>
               </div>
@@ -79,7 +79,7 @@ export default function AboutSection() {
               href="https://instagram.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="absolute left-1/2 top-1/2 flex -translate-x-1/2 -translate-y-1/2 items-center gap-2 rounded-full bg-[#985F42] px-5 py-3 text-sm font-medium text-white shadow-lg transition hover:opacity-90"
+              className="absolute left-1/2 top-1/2 flex -translate-x-1/2 -translate-y-1/2 items-center gap-2 rounded-full bg-[#786B61] px-5 py-3 text-sm font-medium text-white shadow-lg transition hover:opacity-90"
             >
               <Camera size={17} />
               follow-us

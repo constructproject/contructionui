@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import logoImg from '@/assets/projects/logo.png';
 import {
   Menu,
   X,
@@ -62,48 +63,20 @@ export default function Navbar() {
           href="/"
           className="flex items-center gap-2"
         >
-          <div
-            className="
-              flex
-              h-10
-              w-10
-              items-center
-              justify-center
-              border-2
-              border-[#b8922a]
-              text-xl
-              font-semibold
-              text-[#786B61]
-            "
-          >
-            L
-          </div>
+          <img
+            src={logoImg}
+            alt="Company Logo"
+            className="h-24 w-24 object-contain"
+          />
 
-          <div className="leading-none">
+          <div className="leading-tight">
             <div
-              className="
-                text-lg
-                font-semibold
-                text-[#786B61]
-              "
+              className="text-xl font-semibold text-[#786B61] sm:text-2xl"
               style={{
                 fontFamily: 'var(--font-serif)',
               }}
             >
-              Your Company
-            </div>
-
-            <div
-              className="
-                mt-1
-                text-[9px]
-                font-medium
-                uppercase
-                tracking-[0.25em]
-                text-[#b8922a]
-              "
-            >
-              Constructions
+              Akshaya Constructions
             </div>
           </div>
         </a>

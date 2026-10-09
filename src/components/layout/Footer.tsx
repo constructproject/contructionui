@@ -1,3 +1,5 @@
+import logoImg from '@/assets/projects/logo.png';
+
 export default function Footer() {
   return (
     <footer className="bg-[#4D4446] text-white">
@@ -23,19 +25,21 @@ export default function Footer() {
 
         <div className="col-span-2 sm:col-span-2 lg:col-span-1">
 
-          <h3
-            className="
-              mb-4
-              text-xl
-              font-semibold
-              sm:text-2xl
-            "
-            style={{
-              fontFamily: 'var(--font-serif)',
-            }}
-          >
-            Your Company
-          </h3>
+          <div className="mb-4 flex items-center gap-3">
+            <img
+              src={logoImg}
+              alt="Akshaya Constructions Logo"
+              className="h-14 w-14 object-contain"
+            />
+            <h3
+              className="text-xl font-semibold sm:text-2xl"
+              style={{
+                fontFamily: 'var(--font-serif)',
+              }}
+            >
+              Akshaya Constructions
+            </h3>
+          </div>
 
           <p className="max-w-xs text-sm leading-6 text-white/70">
             Design-first home construction with
@@ -123,7 +127,7 @@ export default function Footer() {
             </p>
 
             <p>
-              +91 XXXXX XXXXX
+              +91 9916757151
             </p>
 
             <p>
@@ -151,7 +155,7 @@ export default function Footer() {
             sm:px-8
           "
         >
-          © {new Date().getFullYear()} Your Company.
+          © {new Date().getFullYear()} Akshaya Constructions.
           All rights reserved.
         </div>
 

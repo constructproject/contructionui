@@ -138,7 +138,7 @@ export default function ProjectsSection() {
                 className="text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl"
                 style={{ fontFamily: 'var(--font-serif)' }}
               >
-                <span className="text-[#3d5c2a]">BUILD </span>
+                <span className="text-[#b8922a]">BUILD </span>
                 <span className="text-[#263238]">YOUR</span>
                 <br />
                 <span className="text-[#b8922a]">DREAM </span>
