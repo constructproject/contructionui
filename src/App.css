@@ -1,0 +1,4 @@
+/* App-level styles — component styles live in their own files or use Tailwind classes */
+#root {
+  min-height: 100vh;
+}
